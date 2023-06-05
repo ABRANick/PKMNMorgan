@@ -1,0 +1,574 @@
+TrainerClassAttributes:
+; entries correspond to trainer classes (see constants/trainer_constants.asm)
+
+;Trey 
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Daria 
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Annabelle 
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Eri 1 
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Tsubaki 1 
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Beppi 
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Nero 
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Lorelei 1
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+; Indigo 1
+	db NO_ITEM, NO_ITEM ; items
+	db 15 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Indigo 2
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Eri 2
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Tsubaki 2
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Lorelei 2
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Bruno
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Misty
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Brock
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Agatha
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Whitney
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Eusine
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Silver
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Lance
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Morty
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Sabrina
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Giovani
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Clair 
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Karen
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Red
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Blue
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Green
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+;Morgan
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+; Viola
+	db SUPER_POTION, NO_ITEM ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_SMART | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Viola 2
+	db FULL_RESTORE, FULL_RESTORE ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_SMART | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Jamz Male
+	db POTION, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Jamz Female
+	db POTION, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Grunt M
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Grunt F
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Archer
+	db FULL_RESTORE, NO_ITEM ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_SMART | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Arianna
+	db FULL_RESTORE, NO_ITEM ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_SMART | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Jessie
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; JAMES
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Burglar
+	db NO_ITEM, NO_ITEM ; items
+	db 22 ; base reward
+	dw AI_BASIC | AI_OFFENSIVE | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Firebreather
+	db NO_ITEM, NO_ITEM ; items
+	db 12 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_OFFENSIVE | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+; Juggler
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+; Blackbelt T
+	db NO_ITEM, NO_ITEM ; items
+	db 6 ; base reward
+	dw AI_BASIC | AI_OFFENSIVE | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Psychic T
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Picnicker
+	db NO_ITEM, NO_ITEM ; items
+	db 5 ; base reward
+	dw AI_BASIC | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Camper
+	db NO_ITEM, NO_ITEM ; items
+	db 5 ; base reward
+	dw AI_BASIC | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Sage
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Medium
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Boarder
+	db NO_ITEM, NO_ITEM ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Pokefanm
+	db NO_ITEM, NO_ITEM ; items
+	db 20 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Kimono Girl
+	db NO_ITEM, NO_ITEM ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Pokefanf
+	db NO_ITEM, NO_ITEM ; items
+	db 20 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Officer M 
+	db SUPER_POTION, NO_ITEM ; items
+	db 13
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Officer F 
+	db SUPER_POTION, NO_ITEM ; items
+	db 13
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Nurse
+	db NO_ITEM, NO_ITEM ; items
+	db 10
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Guitarist
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Hiker
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_OFFENSIVE | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Biker
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Cue Ball
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Scientist
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Youngster
+	db NO_ITEM, NO_ITEM ; items
+	db 4 ; base reward
+	dw AI_BASIC | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Lass
+	db NO_ITEM, NO_ITEM ; items
+	db 6 ; base reward
+	dw AI_BASIC | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+; Cooltrainerm
+	db NO_ITEM, NO_ITEM ; items
+	db 12 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Cooltrainerf
+	db NO_ITEM, NO_ITEM ; items
+	db 12 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Beauty
+	db NO_ITEM, NO_ITEM ; items
+	db 22 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Gambler
+	db NO_ITEM, NO_ITEM ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Pokemaniac
+	db NO_ITEM, NO_ITEM ; items
+	db 15 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_OFFENSIVE | AI_AGGRESSIVE | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Gentleman
+	db NO_ITEM, NO_ITEM ; items
+	db 22 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_AGGRESSIVE | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Skier
+	db NO_ITEM, NO_ITEM ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Bug Catcher
+	db NO_ITEM, NO_ITEM ; items
+	db 4 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Fisher
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+; Swimmerm
+	db NO_ITEM, NO_ITEM ; items
+	db 5 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_OFFENSIVE | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Swimmerf
+	db NO_ITEM, NO_ITEM ; items
+	db 5 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Sailor
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_OFFENSIVE | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Super Nerd
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Cooltrainerm remove
+	db NO_ITEM, NO_ITEM ; items
+	db 12 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Cooltrainerf remove
+	db NO_ITEM, NO_ITEM ; items
+	db 12 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Legacy trainers Falkner
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Chuck
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Will
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Koga
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Janine
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+;Twins
+	db NO_ITEM, NO_ITEM ; items
+	db 8 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_SMART | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+
+

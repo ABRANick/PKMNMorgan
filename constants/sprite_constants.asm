@@ -1,0 +1,175 @@
+; sprite ids
+; OverworldSprites indexes (see data/sprites/sprites.asm)
+	const_def
+	const SPRITE_NONE ; 00
+	const SPRITE_CHRIS ; dne
+	const SPRITE_CHRIS_BIKE ; dne
+	const SPRITE_KRIS ; morgan player
+	const SPRITE_KRIS_BIKE ; morgan player bike 
+	const SPRITE_SURF ; morgan surf
+	const SPRITE_SURFING_PIKACHU 
+	const SPRITE_TREY 
+	const SPRITE_DARIA
+	const SPRITE_ANNABELLE
+	const SPRITE_ERI 
+	const SPRITE_TSUBAKI
+	const SPRITE_BEPPI
+	const SPRITE_NERO
+	const SPRITE_LORELEI
+	const SPRITE_BRUNO 
+	const SPRITE_MISTY
+	const SPRITE_BROCK
+	const SPRITE_AGITHA
+	const SPRITE_WHITNEY
+	const SPRITE_EUSINE
+	const SPRITE_SILVER 
+	const SPRITE_LANCE
+	const SPRITE_MORTY
+	const SPRITE_SABRINA
+	const SPRITE_GIOVANNI
+	const SPRITE_KAREN
+	const SPRITE_CLAIR
+	const SPRITE_RED
+	const SPRITE_BLUE
+	const SPRITE_GREEN
+	const SPRITE_INDIGO
+	const SPRITE_VIOLA
+	const SPRITE_IVY 
+	const SPRITE_OAK
+	const SPRITE_YOUNGSTER
+	const SPRITE_LASS
+	const SPRITE_HIKER
+	const SPRITE_PICKNICKER
+	const SPRITE_CAMPER
+	const SPRITE_BUG_CATCHER
+	const SPRITE_COOLTRAINER_M
+	const SPRITE_COOLTRAINER_F
+	const SPRITE_SAGE
+	const SPRITE_MEDIUM
+	const SPRITE_KIMONO_GIRL
+	const SPRITE_PSYCHIC_T
+	const SPRITE_SUPER_NERD
+	const SPRITE_POKEMANAIC
+	const SPRITE_GENTLEMAN
+	const SPRITE_BEAUTY
+	const SPRITE_TAMER
+	const SPRITE_FIREBREATHER
+	const SPRITE_JUGGLER
+	const SPRITE_SCIENTIST
+	const SPRITE_GAMBLER
+	const SPRITE_CUEBALL
+	const SPRITE_BIKER
+	const SPRITE_BLACK_BELT
+	const SPRITE_FISHER
+	const SPRITE_SAILOR
+	const SPRITE_POKEFAN_M
+	const SPRITE_POKEFAN_F
+	const SPRITE_BOARDER
+	const SPRITE_OFFICER
+	const SPRITE_OFFICER_F
+	const SPRITE_NURSE_2
+	const SPRITE_ROCKET
+	const SPRITE_ROCKET_GIRL
+	const SPRITE_ARCHER
+	const SPRITE_ARIANNA
+	const SPRITE_JESSIE
+	const SPRITE_JAMES
+	const SPRITE_JAMZ_M
+	const SPRITE_JAMZ_F
+	const SPRITE_GYM_GUIDE
+	const SPRITE_GUARD
+
+;From Crystal, update eventually
+	const SPRITE_GAMEBOY_KID ; 03
+	const SPRITE_BILL ; 08
+	const SPRITE_ELDER ; 09
+	const SPRITE_MOM ; 0c
+	const SPRITE_REDS_MOM ; 0e
+	const SPRITE_DAISY ; 0f
+	const SPRITE_ROCKER ; 2c
+	const SPRITE_GRAMPS ; 2f
+	const SPRITE_GRANNY ; 30
+	const SPRITE_SWIMMER_GUY ; 31
+	const SPRITE_SWIMMER_GIRL ; 32
+	const SPRITE_NURSE ; 37
+	const SPRITE_LINK_RECEPTIONIST ; 38
+	const SPRITE_CLERK ; 39
+	const SPRITE_FISHING_GURU ; 3b
+	const SPRITE_UNUSED_GUY ; 3f
+	const SPRITE_RECEPTIONIST ; 42
+	const SPRITE_CAPTAIN ; 46
+	const SPRITE_PHARMACIST ; 4b
+	const SPRITE_OLD_LINK_RECEPTIONIST ; 58
+	const SPRITE_JANINE
+
+;objects
+	const SPRITE_ROCK ; 59
+	const SPRITE_BOULDER ; 5a
+	const SPRITE_SNES ; 5b
+	const SPRITE_FAMICOM ; 5c
+	const SPRITE_FRUIT_TREE ; 5d
+	const SPRITE_GOLD_TROPHY ; 5e
+	const SPRITE_SILVER_TROPHY ; 5f
+	const SPRITE_POKE_BALL ; 54
+	const SPRITE_POKEDEX ; 55
+	const SPRITE_PAPER ; 56
+	const SPRITE_VIRTUAL_BOY ; 57
+	const SPRITE_N64 ; 51	
+	const SPRITE_MONSTER
+
+; SpriteMons indexes (see data/sprites/sprite_mons.asm)
+	const_next $80
+SPRITE_POKEMON EQU const_value
+	const SPRITE_RALTS ; a3
+	const SPRITE_AVULPIX
+	const SPRITE_ANINETALES
+	const SPRITE_EKANS ; 96
+	const SPRITE_GROWLITHE ; 82
+	const SPRITE_YANMA
+	const SPRITE_MILOTIC
+	const SPRITE_CHANSEY
+	const SPRITE_POLIWRATH
+	const SPRITE_CLEFABLE
+	const SPRITE_CHARMANDER
+	const SPRITE_TOTODILE
+	const SPRITE_TURTWIG
+	const SPRITE_ESPEON
+	const SPRITE_KANGASKHAN
+	const SPRITE_RHYHORN
+	const SPRITE_STARMIE
+	const SPRITE_STANTLER
+	const SPRITE_TAUROS
+	const SPRITE_MILTANK
+	const SPRITE_LAPRAS
+	const SPRITE_BELLOSSOM
+	const SPRITE_GASTRODON
+	const SPRITE_WEEDLE
+	const SPRITE_MACHAMP
+	const SPRITE_VAPOREON
+	const SPRITE_ALAKAZAM
+	const SPRITE_HITMONCHAN
+	const SPRITE_LOPUNNY
+	const SPRITE_HITMONLEE
+	const SPRITE_UNOWN
+	const SPRITE_BEEDRILL
+	const SPRITE_LUDICOLO
+	const SPRITE_NIDOQUEEN
+	
+; special GetMonSprite values (see engine/overworld/overworld.asm)
+	const_next $e0
+	const SPRITE_DAY_CARE_MON_1 ; e0
+	const SPRITE_DAY_CARE_MON_2 ; e1
+
+; wVariableSprites indexes (see wram.asm)
+	const_next $f0
+SPRITE_VARS EQU const_value
+	const SPRITE_CONSOLE ; f0
+	const SPRITE_DOLL_1 ; f1
+	const SPRITE_DOLL_2 ; f2
+	const SPRITE_BIG_DOLL ; f3
+	const SPRITE_FUCHSIA_GYM_1 ; f7
+	const SPRITE_FUCHSIA_GYM_2 ; f8
+	const SPRITE_FUCHSIA_GYM_3 ; f9
+	const SPRITE_FUCHSIA_GYM_4 ; fa
+	const SPRITE_COPYCAT ; fb
+	const SPRITE_JANINE_IMPERSONATOR ; fc

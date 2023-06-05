@@ -1,0 +1,183 @@
+MORGAN STARTER
+----------------------------
+;Ralts and Kirlia are absolutely abysmal pokemon and very unfun to use. Wanting to encourage the player to use Ralts for story related purposes, these stat buffs hope to bring them in line with kanto/johto starters, allowing it to be a  solid pokemon during the early/mid game
+
+RALTS
+TYPE PSYCHIC > PSYCHIC/FAIRY
+HP 25 > 40
+DEF 25 > 35
+SPE 40 > 50
+SPA 45 > 65
+SPD 40 > 45
+
+KIRLIA
+TYPE PSYCHIC > PSYCHIC/FAIRY
+HP 38 > 50
+SPE 50 > 60
+SPA 65 > 75
+SPD 55 > 65
+
+;Gardevoir while a decent single player 'mon typically is completely outclassed by Alakazam and its other Psychic Bretheren. While the fairy type is a notable buff in itself helping it set itself apart, it does not feel like a proper reward to the player for sticking with ralts. These buffs are an inbetween of vanilla gardevoir and its mega form, to encourage the player to stick with their starter throughout the game while not being so over the top that it pushes Alakazam out from being a viable option.
+
+GARDEVOIR
+TYPE PSYCHIC > PSYCHIC/FAIRY
+SPE 80 > 100
+SPA 125 > 135
+SPD 115 > 125
+
+
+
+
+
+
+KANTO/JOHTO STARTS
+-------------------------
+
+;Kanto/Johto starters without any dreamworld abilities or mega evolutions are significantly worse than DPP starters. These changes hope to bring them more in line and hope to give some uniqueness when lacking.
+
+BLASTOISE
+TYPE WATER > WATER/STEEL
+HP 79 > 80
+ATK 83 > 85
+SPA 85 > 90
+
+CHARIZARD
+ATK 84 > 94
+
+VENUSAUR
+ATK 82 > 85
+DEF 83 > 85
+SPA 100 > 105
+
+FERALIGATR
+HP 85 > 80
+ATK 105 > 109
+SPA 79 > 85
+
+MEGANIUM
+TYPE GRASS > GRASS/FAIRY
+ATK 82 > 85
+SPA 83 > 85
+SPD 100 > 105
+
+TYPHLOSION
+TYPE FIRE > FIRE/POISON
+SPA 109 > 119
+
+OTHER
+-------------------------
+ALTARIA 
+TYPE DRAGON/FLYING > DRAGON/FAIRY 
+ATK 70 > 75
+DEF 90 > 100
+SPA > 70 > 90
+
+AMPHAROS 
+TYPE ELECTRIC > ELECTRIC/DRAGON 
+DEF 75 > 85 (SWSH CHANGE)
+
+ARBOK
+ATK 85 > 100 (5 higher than SWSH) 
+ 
+BEEDRILL 
+ATK 80 > 90 (SWSH CHANGE)
+
+;Bellossom is abysmally bad poke, especially without any abilities. This massive buff hopes to make bellossom feel more like a proper reward for finding an item as rare as the sun stone while keeping on theme with it evolving from a sun stone.
+BELLOSSOM
+TYPE GRASS > GRASS/FIRE 
+ATK 80 > 100
+DEF 95 > 65
+SPE 50 > 90 
+SPA 90 > 80
+SPD 100 > 75 
+
+
+CLEFAIRY
+TYPE NORMAL > FAIRY
+
+CLEFABLE 
+TYPE NORMAL > FAIRY
+
+CROBAT
+SPA 70 > 80
+
+GLALIE 
+SPA 70 > 95 (returning lost SPA from RBY)
+
+NOCTOWL
+SPA 61 > 71 
+SPD 61 > 71
+
+
+GOLEM 
+ATK 110 > 120 (SWSH CHANGE)
+
+LAPRAS 
+SPA 85 > 95 (RETURNING LOST SPA FROM RBY)
+
+;Lopunny without its Mega has little to set itself appart from the other normal rodent pokes, with most outclassing her due to at least being good HM slaves. This change hopes to find middleground between vanilla lopunny and its mega in order to make it a usable but not absurd pokemon. While having a typing unique to this game in Normal/Fighting
+LOPUNNY 
+TYPE NORMAL > NORMAL/FIGHTING 
+ATK 76 > 100 
+
+
+LUXRAY 
+TYPE ELECTRIC > ELECTRIC/DARK
+
+;Masquerain goes from the very unique typing of bug water to a generic bug flying with nothing to distinguish itself. We want to give Masquerain its unique identity back and give it some small buffs to see just what its capable of doing.
+MASQUERAIN
+TYPE BUG/FLYING > BUG/WATER
+DEF 62 > 65 
+SPE 80 > 87
+SPA 100 > 105
+
+
+MEDICHAM
+ATK 60 > 145 (pure power, will convert to an item similar to marrowak and thick club if too strong)
+
+MEDITITE
+ATK 40 > 105 (pure power, will convert to an item similar to marrowak and thick club if too strong)
+
+
+MILTANK
+SPA 40 > 70
+
+TAUROS 
+SPA 40 > 70 (returning lost SPA from RBY)
+
+NIDOKING
+ATK 92 > 102 (SWSH CHANGE)
+
+NIDOQUEEN
+ATK 82 > 75
+SPA 75 > 92 
+
+PERSIAN
+SPA 65 > 75
+
+POLITOED
+TYPE WATER > WATER/GROUND 
+
+STARAVIA
+ATK 85 > 90
+DEF 85 > 90
+
+;Secret Gift pokemon and for Battle vs RED, essentially the same stats as pikachu from LGPE. Works with lightball turning the Mascot and the "Best Trainers" ace pokemon from a joke to an actual deadly glass cannon. Regular pikachu remains the same as fodder for getting raichu
+"STARTER" PIKACHU
+HP 35 > 45
+ATK 55 > 80
+DEF 40 > 50
+SPE 90 > 120
+SPA 50 > 75
+SPD 50 > 60
+
+SWELLOW 
+SPA 50 > 75 (SWSH CHANGE)
+
+;Wanted to bring torkal up to being a "fire version" of lapras being a more threatening enemy pokemon along with being an overworld mon discovered as a reward for exploring.
+TORKOAL 
+HP 70 > 80
+ATK 85 > 95
+DEF 140 > 130
+SPA 85 > 95
+SPD 70 > 90

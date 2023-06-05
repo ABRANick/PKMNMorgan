@@ -1,0 +1,21 @@
+	db SHUPPET ; 173
+	db  44,  75,  35,  45,  63,  33
+    evs  0,   1,   0,   0,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db GHOST, GHOST ; type
+	db 225 ; catch rate
+	db 59 ; base exp
+	db NO_ITEM, NO_ITEM ; items
+	db GENDER_F50 ; gender ratio
+	db 20 ; step cycles to hatch
+	INCBIN "gfx/pokemon/shuppet/front.dimensions"
+	dw NULL, NULL ; unused (beta front/back pics)
+	db GROWTH_FAST ; growth rate
+	dn EGG_PLANT, EGG_PLANT ; egg groups
+
+	; tm/hm learnset
+	tmhm ;DOUBLE_EDGE, HIDDEN_POWER, PROTECT, RETURN, SUBSTITUTE, SWAGGER, SWIFT, SUNNY_DAY, WILL_O_WISP, RAIN_DANCE, SHOCK_WAVE, THUNDER, THUNDER_WAVE, THUNDERBOLT, HEX, SHADOW_BALL, TOXIC, DARK_PULSE, THIEF, DAZZLINGLEAM, PLAYROUGH, FLASH, ATTRACT, BIDE, ENCORE, HEADBUTT, MIMIC, REST, SLEEP_TALK
+	;end
+	
+	
